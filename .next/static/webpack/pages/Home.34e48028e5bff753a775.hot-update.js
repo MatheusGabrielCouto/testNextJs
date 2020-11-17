@@ -1,9 +1,9 @@
-webpackHotUpdate_N_E("pages/index",{
+webpackHotUpdate_N_E("pages/Home",{
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/Home/index.js":
+/*!*****************************!*\
+  !*** ./pages/Home/index.js ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -15,12 +15,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Projetos\\TestNext\\pages\\index.js";
+
+var _jsxFileName = "C:\\Projetos\\TestNext\\pages\\Home\\index.js",
+    _s = $RefreshSig$();
+
 
 function Home() {
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    children: "Home"
-  }, void 0, false, {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+      children: "Home"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(Contador, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
+      href: "/Contato",
+      children: "Contato"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }, this)]
+  }, void 0, true, {
     fileName: _jsxFileName,
     lineNumber: 5,
     columnNumber: 5
@@ -29,27 +49,39 @@ function Home() {
 _c = Home;
 
 function Contador() {
+  _s();
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(1),
+      contador = _useState[0],
+      setContador = _useState[1];
+
+  function adicionarContador() {
+    setContador(contador + 1);
+  }
+
   return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
     children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
       children: contador
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 20,
       columnNumber: 5
     }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
       onClick: adicionarContador,
       children: "Adicionar"
     }, void 0, false, {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 21,
       columnNumber: 5
     }, this)]
   }, void 0, true, {
     fileName: _jsxFileName,
-    lineNumber: 11,
+    lineNumber: 19,
     columnNumber: 3
   }, this);
 }
+
+_s(Contador, "5QqM+ZpMrkLzWba3LyD+xgifwgA=");
 
 _c2 = Contador;
 
@@ -113,9 +145,9 @@ $RefreshReg$(_c2, "Contador");
         }
     }
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ })
 
 })
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiSG9tZSIsIkNvbnRhZG9yIiwiY29udGFkb3IiLCJhZGljaW9uYXJDb250YWRvciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFFZSxTQUFTQSxJQUFULEdBQWdCO0FBQzdCLHNCQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBREY7QUFHRDtLQUp1QkEsSTs7QUFNeEIsU0FBU0MsUUFBVCxHQUFvQjtBQUNsQixzQkFDQTtBQUFBLDRCQUNFO0FBQUEsZ0JBQU1DO0FBQU47QUFBQTtBQUFBO0FBQUE7QUFBQSxZQURGLGVBRUU7QUFBUSxhQUFPLEVBQUVDLGlCQUFqQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUZGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxVQURBO0FBTUQ7O01BUFFGLFEiLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvaW5kZXguZWJlNTRmYTVlYTRkMThiYTA1MTQuaG90LXVwZGF0ZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwge3VzZVN0YXRlfSBmcm9tICdyZWFjdCdcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXY+SG9tZTwvZGl2PlxyXG4gIClcclxufVxyXG5cclxuZnVuY3Rpb24gQ29udGFkb3IoKSB7XHJcbiAgcmV0dXJuIChcclxuICA8ZGl2PlxyXG4gICAgPGRpdj57Y29udGFkb3J9PC9kaXY+XHJcbiAgICA8YnV0dG9uIG9uQ2xpY2s9e2FkaWNpb25hckNvbnRhZG9yfT5BZGljaW9uYXI8L2J1dHRvbj5cclxuICA8L2Rpdj5cclxuICApXHJcbn0iXSwic291cmNlUm9vdCI6IiJ9
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvSG9tZS9pbmRleC5qcyJdLCJuYW1lcyI6WyJIb21lIiwiQ29udGFkb3IiLCJ1c2VTdGF0ZSIsImNvbnRhZG9yIiwic2V0Q29udGFkb3IiLCJhZGljaW9uYXJDb250YWRvciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFFZSxTQUFTQSxJQUFULEdBQWdCO0FBQzdCLHNCQUNFO0FBQUEsNEJBQ0U7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFERixlQUVFLHFFQUFDLFFBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUZGLGVBR0U7QUFBRyxVQUFJLEVBQUMsVUFBUjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUhGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxVQURGO0FBT0Q7S0FSdUJBLEk7O0FBVXhCLFNBQVNDLFFBQVQsR0FBb0I7QUFBQTs7QUFBQSxrQkFDY0Msc0RBQVEsQ0FBQyxDQUFELENBRHRCO0FBQUEsTUFDWEMsUUFEVztBQUFBLE1BQ0RDLFdBREM7O0FBRWxCLFdBQVNDLGlCQUFULEdBQTZCO0FBQzNCRCxlQUFXLENBQUNELFFBQVEsR0FBRyxDQUFaLENBQVg7QUFDRDs7QUFDRCxzQkFDQTtBQUFBLDRCQUNFO0FBQUEsZ0JBQU1BO0FBQU47QUFBQTtBQUFBO0FBQUE7QUFBQSxZQURGLGVBRUU7QUFBUSxhQUFPLEVBQUVFLGlCQUFqQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUZGO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxVQURBO0FBTUQ7O0dBWFFKLFE7O01BQUFBLFEiLCJmaWxlIjoic3RhdGljL3dlYnBhY2svcGFnZXMvSG9tZS4zNGU0ODAyOGU1YmZmNzUzYTc3NS5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7dXNlU3RhdGV9IGZyb20gJ3JlYWN0J1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPGgxPkhvbWU8L2gxPlxyXG4gICAgICA8Q29udGFkb3IgLz5cclxuICAgICAgPGEgaHJlZj1cIi9Db250YXRvXCI+Q29udGF0bzwvYT5cclxuICAgIDwvZGl2PlxyXG4gIClcclxufVxyXG5cclxuZnVuY3Rpb24gQ29udGFkb3IoKSB7XHJcbiAgY29uc3QgW2NvbnRhZG9yLCBzZXRDb250YWRvcl0gPSB1c2VTdGF0ZSgxKVxyXG4gIGZ1bmN0aW9uIGFkaWNpb25hckNvbnRhZG9yKCkge1xyXG4gICAgc2V0Q29udGFkb3IoY29udGFkb3IgKyAxKVxyXG4gIH1cclxuICByZXR1cm4gKFxyXG4gIDxkaXY+XHJcbiAgICA8ZGl2Pntjb250YWRvcn08L2Rpdj5cclxuICAgIDxidXR0b24gb25DbGljaz17YWRpY2lvbmFyQ29udGFkb3J9PkFkaWNpb25hcjwvYnV0dG9uPlxyXG4gIDwvZGl2PlxyXG4gIClcclxufSJdLCJzb3VyY2VSb290IjoiIn0=
